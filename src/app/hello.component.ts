@@ -16,19 +16,6 @@ export class HelloComponent  {
     ]
   }
 
-  CreateMenuStructure() {
-    this.menulist.forEach(
-      (mi) => {
-        let item : string[] = mi.split(',');
-      }
-    )
-  }
-
-  MenuLoop(item ) {
-    this.finalMenu.push({parentName: })
-  }
-
-
 }
 
 
