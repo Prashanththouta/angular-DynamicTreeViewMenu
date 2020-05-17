@@ -62,9 +62,14 @@ p span {
   margin-top: 0px;
   width: 200px;
   background-color: orange;
-  overflow-x: scroll;
+  overflow: auto;
 }
 
 h1 {
   margin-top: 0px;
 }
+
+.floatclass {
+  float: left
+}
+
