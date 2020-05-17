@@ -47,3 +47,24 @@ li {
 li:hover {
   background-color: grey;
 }
+
+p span {
+  display: inline-block;
+  height: 20px;
+  background-color: goldenrod;
+  width: 100px;
+  top: 5px;
+  right: 20px;
+
+}
+
+.divclass{
+  margin-top: 0px;
+  width: 200px;
+  background-color: orange;
+  overflow-x: scroll;
+}
+
+h1 {
+  margin-top: 0px;
+}
