@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+  divsData;
+
+  constructor() {
+    this.divsData = [
+      {label: "Date"},
+      {label: "Branch"},
+      {label: "Location"},
+      {label: "Party"}
+    ];
+  }
 }

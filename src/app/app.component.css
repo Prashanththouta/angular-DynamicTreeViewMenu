@@ -73,3 +73,35 @@ h1 {
   float: left
 }
 
+.T{
+  display: table;
+}
+
+.TR{
+  display: table-row;
+}
+.TC{
+  display: table-cell;
+}
+
+.divcont{
+  display: inline-block;
+  background-color: gold;
+  width: 100%;
+  margin: 0px;
+}
+
+.fc{
+  margin: 0px;
+  border: 2px solid red;
+  width: 33.33%;
+  height: 150px;
+  background-color: grey;
+  float:left;
+}
+
+.ed{
+  margin: 0px;
+  padding: 0px;
+  background-color: green;
+}

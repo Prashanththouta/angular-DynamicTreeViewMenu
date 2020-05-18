@@ -42,16 +42,19 @@
   </ul>
 </div>
 
+<div  *ngFor="let data of divsData">
+  <div  class="container">
+    <div class="row">
+      <label class="rowCell" for="rowd"> {{data.label}} </label>
+      <input class="rowCell" type="text" id="rowd">
+    </div>
+  </div>
+</div>
 
-<p>hjvsdcujshndfcvjhsddvcjhsdvhjsdvb jchsv jdsfbv jsdnbsvc jhnvjsh
-  hvcsdgnbvfjhmdgvjhvshjvndsjhvmvmnsddvjhvsj v<span>1992</span>jhf
-  hjcdvnfcvjhmvcjhfvcjhmgv wydhgbwiukjgbiuukjhgjnlkjcxgfbbfgvnlkf
-</p>
 
-<div class="divclass">
-  <h1>chdsjhcgsdhfgdhjfgd</h1>
-  <h1>chdsjhcgsdhfgdhjfgd</h1>
-  <h1>chdsjhcgsdhfgdhjfgd</h1>
-  <h1>chdsjhcgsdhfgdhjfgd</h1>
-  <h1>chdsjhcgsdhfgdhjfgd</h1>
+<div class="divcont" >
+  <div class="ed" *ngFor="let data of divsData">
+  <div class="fc"></div>
+  <hr>
+  </div>
 </div>
